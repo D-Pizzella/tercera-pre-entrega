@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+	.clase-logo {
+		display: none;
+	}
+	.nav-text {
+		display: none;
+	}
+	.barra-de-tareas {
+		ul {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			grid-row: 3 / 4;
+			li {
+				padding: 0 10px;
+				grid-row: 3 / 4;
+			}
+		}
+		grid-row: 3 / 4;
+		padding-bottom: .825rem;
+	}
+	.grid-index {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 15% 75% 10%;
+	}
+	.inicio-de-sesión {
+		grid-row: 2 / 3;
+		grid-column: 1 / 2;
+		padding: none;
+	}
+	.clase-nombre {
+		grid-row: 1 / 2;
+		grid-column: 1 / 2;
+		padding: 0;
+	}
+	.logo-nombre {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	.grid-torneos {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 15% 75% 10%;
+	}
+	.grid-registro {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 15% 75% 10%;
+	}
+	.grid-modo {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 15% 75% 10%;
+	}
+	.grid-tiempos {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 15% 75% 10%;
+	}
+	.grid-soporte {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 15% 75% 10%;
+	}
+	.main-modo {
+		grid-row: 2 / 3;
+		grid-column: 1 / 2;
+		padding: none;
+		p {
+			width: 100%;
+			padding-right: .625rem;
+		}
+	}
+	.main-soporte {
+        grid-row: 2 / 3;
+		grid-column: 1 / 2;
+		padding: none;
+		p {
+			width: 100%;
+			padding-right: .625rem;
+		}
+	}
+	.main-tiempos {
+		grid-row: 2 / 3;
+		grid-column: 1 / 2;
+		padding: none;
+		p {
+			width: 100%;
+			padding-right: .625rem;
+		}	}
+	.main-torneos {
+		grid-row: 2 / 3;
+		grid-column: 1 / 2;
+		padding: none;
+		p {
+			width: 100%;
+			padding-right: .625rem;
+		}
+	}
+	.main-registro {
+		grid-row: 2 / 3;
+		grid-column: 1 / 2;
+		padding: none;
+		p {
+			width: 100%;
+			padding-right: .625rem;
+		}
+	}
+}

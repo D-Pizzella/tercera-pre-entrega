@@ -1,0 +1,19 @@
+@import "./utilities/variables";
+
+@import "./base/resets";
+
+@import "./base/typo";
+
+@import "./layout/body";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-modo";
+@import "./layout/main-registro";
+@import "./layout/main-soporte";
+@import "./layout/main-tiempos";
+@import "./layout/main-torneos";
+@import "./layout/navbar";
+
+@import "./components/botones";
+
+@import "./layout/media/media768.scss";

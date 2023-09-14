@@ -1,0 +1,46 @@
+.logo-nombre {
+	padding: .625rem;
+	grid-row: 1/2;
+	grid-column: 1/2;
+}
+
+.barra-de-tareas {
+	ul {
+		li {
+			a {
+				font-size: 1.25rem;
+				text-decoration: none;
+				color: $color_1;
+			}
+			padding-bottom: 2.4rem;
+		}
+	}
+	grid-column: 1 /2;
+	grid-row: 2 / 3;
+}
+
+.nav-box {
+	display: flex;
+	padding: .625rem;
+	align-items: center;
+	padding-left: 2.1rem;
+	gap: .625rem;
+}
+
+.nav-perfil {
+	display: flex;
+	padding: .625rem;
+	align-items: center;
+	padding-left: 2.1rem;
+	gap: .625rem;
+	padding-top: 7.25rem;
+}
+
+.nav-soporte {
+	display: flex;
+	padding: .625rem;
+	align-items: center;
+	padding-left: 2.1rem;
+	gap: .625rem;
+	padding-top: 9.375rem;
+}

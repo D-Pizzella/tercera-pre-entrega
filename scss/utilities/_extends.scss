@@ -1,0 +1,16 @@
+%estilo-grid{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 270px auto;
+    grid-template-rows: 95px auto;
+}
+
+%estilo-main {
+    font-family: $font-family_1;
+    text-align: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-content: center;
+}

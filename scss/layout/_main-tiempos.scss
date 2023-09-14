@@ -1,0 +1,14 @@
+.main-tiempos {
+	h1 {
+		text-align: center;
+		font-family: $font-family_1;
+	}
+	grid-column: 2 / 3;
+	grid-row: 1 / 3;
+	align-self: center;
+	justify-content: center;
+}
+
+.grid-tiempos {
+	@extend %estilo-grid;
+}

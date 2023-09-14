@@ -1,0 +1,15 @@
+.botones{
+    div {
+        button {
+            @include boton-comun;
+            padding: 1.125rem 1.0625rem;
+	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	grid-template-columns: 12.7rem 12.7rem;
+	grid-template-rows: 6.25rem 6.25rem;
+	justify-items: center;
+    }
+}
